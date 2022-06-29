@@ -1,0 +1,24 @@
+@import "../App/vars";
+
+.cart-footer {
+  display: grid;
+  grid-template-columns: 5fr 3fr 4fr;
+  column-gap: 30px;
+
+  background-color: #eaeff2;
+  padding: 19px 15px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 120%;
+  color: #000000;
+
+  @media (max-width: $mobile) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.cart-footer__count {
+  grid-column-start: 2;
+  @media (max-width: $mobile) {
+    grid-column-start: 1;
+  }
+}
