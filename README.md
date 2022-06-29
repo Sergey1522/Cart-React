@@ -1,3 +1,7 @@
+React приложение Корзина товаров.
+
+![Снимок экрана 2022-06-29 113622](https://user-images.githubusercontent.com/86910580/176391863-839fd815-2369-46fd-b6a9-d8e092d02f76.jpg)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
